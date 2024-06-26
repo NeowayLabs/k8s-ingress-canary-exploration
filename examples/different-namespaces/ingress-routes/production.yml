@@ -9,7 +9,7 @@ spec:
     http:
       paths:
       - pathType: Prefix
-        path: /router(/|$)(.*)
+        path: /
         backend:
           service:
             name: production
