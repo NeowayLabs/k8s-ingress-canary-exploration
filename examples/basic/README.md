@@ -1,5 +1,10 @@
 # Exemplo básico do ingress canary
 
+Exemplo básico do ingress e deployments canary.
+
+Documentação oficial
+[Canary Deployments](https://kubernetes.github.io/ingress-nginx/examples/canary)
+
 ## Deploy production
 
 ```bash

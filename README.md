@@ -3,6 +3,11 @@
 Esse projeto cria um cluster k8s para experimento da funcionalidade de balancear
 carga dinamicamente entre dois serviços através do ingress utilizando a técnica canary.
 
+Documentação oficial
+[Como funciona o Ingress Nginx do K8s](https://kubernetes.github.io/ingress-nginx/how-it-works)
+
+[Estrutura de código do Ingress Nginx Controller](https://kubernetes.github.io/ingress-nginx/developer-guide/code-overview)
+
 # Instalando kubectl
 
 Para instalar o `kubectl` em uma arquitetura `amd64`,
@@ -68,6 +73,7 @@ minikube addons enable ingress
 1. [Exemplo básico do ingress canary](examples/basic/README.md)
 2. [Exemplo com canary por header](examples/by-header/README.md)
 3. [Exemplo com canary por header em diferentes namespaces](examples/different-namespaces/README.md)
+3. [Exemplo com canary e stable por header em diferentes namespaces](examples/different-namespaces-stable/README.md)
 
 # Limpando o ambiente
 

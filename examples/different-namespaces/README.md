@@ -1,6 +1,7 @@
 # Exemplo básico do ingress canary
 
 Exemplo do uso do ingress canary pelo header `X-Canary: true`
+em diferentes namespaces.
 
 ## Deploy production
 
